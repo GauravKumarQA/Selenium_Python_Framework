@@ -10,6 +10,7 @@ class SimulationPage:
         self.driver = driver
 
     def enter_new_simulation_name(self, new_simulation_name):
+        self.driver.find_element_by_id(self.new_simulation_name_field_id).clear()
         self.driver.find_element_by_id(self.new_simulation_name_field_id).send_keys(new_simulation_name)
 
     def enter_new_simulation_description(self, new_simulation_description):

@@ -1,5 +1,6 @@
 import os
 import random
+import string
 import pytest
 from selenium import webdriver
 
@@ -18,4 +19,4 @@ def browser():
 
 @pytest.fixture
 def project_name():
-    return str(random.random()) + "project"
+    return ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(10))

@@ -38,6 +38,7 @@ def create_simulation(browser, project_name, simulator_name, simulator_descripti
     pp = ProjectPage(browser)
     ss = SimulationPage(browser)
     mp = ModelingPage(browser)
+    pp.click_on_existing_project_name(project_name)
     pp.click_new_simulation_button_under_project(project_name)
     ss.enter_new_simulation_name(simulator_name)
     ss.enter_new_simulation_description(simulator_description)
