@@ -6,3 +6,7 @@ This framework is BDD based.
 ----StepDefinations
 
 Stack used : Selenium, Python, Pytest-bdd
+
+To run this framework. 
+user pytest command on cmd.
+Please refer: https://docs.pytest.org/en/latest/how-to/usage.html
