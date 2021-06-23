@@ -8,5 +8,5 @@ This framework is BDD based.
 Stack used : Selenium, Python, Pytest-bdd
 
 To run this framework. 
-user pytest command on cmd.
+run pytest command in cmd.
 Please refer: https://docs.pytest.org/en/latest/how-to/usage.html
