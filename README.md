@@ -1,12 +1,15 @@
 # Selenium_Python_Framework
-This repository contains Selenium_Python_Framwok
-This framework is BDD based.
---TestCases
-----FeatureFiles
-----StepDefinations
+1. This repository contains Selenium_Python_Framwok
+2. This framework is BDD based.
 
-Stack used : Selenium, Python, Pytest-bdd
+<h6>Framework structure</h6>
+--TestCases<br/>
+----FeatureFiles<br/>
+----StepDefinations<br/>
+<br/>
 
-To run this framework. 
+**Stack used : Selenium, Python, Pytest-bdd<br/>**
+
+**To run this framework.<br/>**
 run pytest command in cmd.
 Please refer: https://docs.pytest.org/en/latest/how-to/usage.html
